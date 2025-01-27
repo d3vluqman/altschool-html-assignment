@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="./index.html">About</a>
+        <a href="./form.html">Form</a>
+    </nav>
+
+    <div class="container">
+        <h1 id="title">Application Form</h1>
+        <form id="application-form">
+            
+            <label id="name-label" for="first-name">First Name</label>
+            <input id="name" type="text" placeholder="First Name" required>
+
+            <label id="name-label" for="last-name">Last Name</label>
+            <input id="name" type="text" placeholder="Last Name" required>
+
+            <label id="email-label" for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter your email" required>
+
+            <label for="gender">Gender</label>
+            <select id="gender">
+                <option value="select">Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <label id="dob-label" for="dob">Date of Birth</label>
+            <input id="dob" type="date" required>
+
+            <label id="number-label" for="number">Phone Number</label>
+            <input id="number" type="number" placeholder="Phone Number" required>
+
+            <label id="country" for="country">Country of Residence</label>
+            <input id="country" type="text" placeholder="Country of Residence" required>
+
+            <label id="state" for="state">State of Residence</label>
+            <input id="state" type="text" placeholder="State of Residence" required>
+            
+            <label for="comment">How did you hear about us?</label>
+            <input id="comment" type="text" placeholder="Optional: Let us know how you found us" required>
+
+            <!-- Submit Button -->
+            <button id="sign-up" type="submit">Signup</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Address: luqmanabdulwasii@gmail.com</p>
+        <p>&copy; 2025. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

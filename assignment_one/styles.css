@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav, footer, button {
+    background-color: #1808f1e5;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+}
+
+button {
+    background-color: #1808f1e5;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #1507d1;
+}
+
+header {
+    background-color: #1808f1e5;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2em;
+    background-color: #fff;
+    margin: 2em auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+}
+
+p {
+    margin: 1em 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 2em;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
+
+div a {
+    display: inline-block;
+    margin-top: 2em;
+    color: #333;
+    text-decoration: none;
+}
+
+div a:hover {
+    text-decoration: underline;
+}
+
+form {
+    background-color: #fff;
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 0.75em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #1808f1e5;
+    color: #fff;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form input[type="submit"]:hover {
+    background-color: #1507d1;
+}
+
+form .error {
+    color: red;
+    margin-bottom: 1em;
+}
